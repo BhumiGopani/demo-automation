@@ -1,0 +1,22 @@
+==============================================================================
+Tests                                                                         
+==============================================================================
+Tests.Windows                                                                 
+==============================================================================
+Tests.Windows.Windows.Test :: Windows page test cases                         
+==============================================================================
+Verify new window is opened when user click on link 'Click Here'      | PASS |
+------------------------------------------------------------------------------
+Tests.Windows.Windows.Test :: Windows page test cases                 | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Tests.Windows                                                         | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Tests                                                                 | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  /opt/robotframework/reports/pabot_results/3/output.xml

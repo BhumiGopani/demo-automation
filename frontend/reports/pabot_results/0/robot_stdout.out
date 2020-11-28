@@ -1,0 +1,22 @@
+==============================================================================
+Tests                                                                         
+==============================================================================
+Tests.Dynamic-Controls                                                        
+==============================================================================
+Tests.Dynamic-Controls.Dynamic-Controls.Test :: Dyanamic Controls page test...
+==============================================================================
+Verify the functionality of "Enable" and "Disable" button             | PASS |
+------------------------------------------------------------------------------
+Tests.Dynamic-Controls.Dynamic-Controls.Test :: Dyanamic Controls ... | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Tests.Dynamic-Controls                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Tests                                                                 | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  /opt/robotframework/reports/pabot_results/0/output.xml

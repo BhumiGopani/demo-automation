@@ -1,0 +1,24 @@
+==============================================================================
+Tests                                                                         
+==============================================================================
+Tests.Tables                                                                  
+==============================================================================
+Tests.Tables.Tables.Test :: Tables page test cases                            
+==============================================================================
+Verify user is able to sort 'Last Name' of Emaple table 1             | PASS |
+------------------------------------------------------------------------------
+Verify user is able to sort 'First Name' of Emaple table 2            | PASS |
+------------------------------------------------------------------------------
+Tests.Tables.Tables.Test :: Tables page test cases                    | PASS |
+2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed
+==============================================================================
+Tests.Tables                                                          | PASS |
+2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed
+==============================================================================
+Tests                                                                 | PASS |
+2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed
+==============================================================================
+Output:  /opt/robotframework/reports/pabot_results/2/output.xml

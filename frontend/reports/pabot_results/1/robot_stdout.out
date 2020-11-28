@@ -1,0 +1,30 @@
+==============================================================================
+Tests                                                                         
+==============================================================================
+Tests.Login                                                                   
+==============================================================================
+Tests.Login.Login.Test :: Login page test cases                               
+==============================================================================
+User with valid credentials must be able to Login the application     | PASS |
+------------------------------------------------------------------------------
+User with invalid credentials should not be able to Login the appl... | PASS |
+------------------------------------------------------------------------------
+User with invalid password should not be able to Login the applica... | PASS |
+------------------------------------------------------------------------------
+User with invalid - blank password should not be able to Login the... | PASS |
+------------------------------------------------------------------------------
+User with invalid - space password should not be able to Login the... | PASS |
+------------------------------------------------------------------------------
+Tests.Login.Login.Test :: Login page test cases                       | PASS |
+5 critical tests, 5 passed, 0 failed
+5 tests total, 5 passed, 0 failed
+==============================================================================
+Tests.Login                                                           | PASS |
+5 critical tests, 5 passed, 0 failed
+5 tests total, 5 passed, 0 failed
+==============================================================================
+Tests                                                                 | PASS |
+5 critical tests, 5 passed, 0 failed
+5 tests total, 5 passed, 0 failed
+==============================================================================
+Output:  /opt/robotframework/reports/pabot_results/1/output.xml
