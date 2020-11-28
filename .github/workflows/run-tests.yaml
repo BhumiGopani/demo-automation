@@ -14,8 +14,6 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
-      - name: Set up test data in case any
-        run: 
   backend-test:
     name: Backend Test
     needs: [setup]
