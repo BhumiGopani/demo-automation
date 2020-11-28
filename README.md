@@ -8,6 +8,7 @@ Demo of automation framework for UI and API testing.
 ├── .pre-commit-config.yaml
 ├── backend
 │   ├── run-in-docker.sh    - Docker file for running the API tests
+│   ├── run-in-docker-performance.sh    - Docker file for running the API tests
 │   ├── pom.xml             - All the dependency are mentioned in it
 │   ├── src/test/java       - Tests folder
 │       └── actions         - All the reusuable actions are mentioned in this folder
