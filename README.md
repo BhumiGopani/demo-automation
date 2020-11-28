@@ -2,8 +2,8 @@
 Demo of automation framework for UI and API testing. 
 
 # Framework Organization
-
-`├── README.md
+```
+├── README.md
 ├── .gitignore
 ├── .pre-commit-config.yaml
 ├── backend
@@ -23,7 +23,7 @@ Demo of automation framework for UI and API testing.
 │       └── resources       - Chromedriver to set a path
 │       └── tests           - Test folder
 │       └── variables.robot - Config file to set the parameters`
-
+```
 
 ### Using Docker
 
