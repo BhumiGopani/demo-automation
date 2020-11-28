@@ -1,5 +1,3 @@
 requests
 robotframework
 robotframework-seleniumlibrary
-webdriver-manager
-robotframework-selenium-mouseextensions

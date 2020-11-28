@@ -2,7 +2,8 @@
 Demo of automation framework for UI and API testing. 
 
 # Framework Organization
-├── README.md
+
+`├── README.md
 ├── .gitignore
 ├── .pre-commit-config.yaml
 ├── backend
@@ -21,7 +22,7 @@ Demo of automation framework for UI and API testing.
 │   ├── web                 - Tests folder
 │       └── resources       - Chromedriver to set a path
 │       └── tests           - Test folder
-│       └── variables.robot - Config file to set the parameters
+│       └── variables.robot - Config file to set the parameters`
 
 
 ### Using Docker
@@ -42,7 +43,7 @@ to see what other options you can use.
 3. `robot -d results tests/`
 - We are using `ppodgorsek/robot-framework:latest` image for running the tests, we can configure all the options to run the tests in run-in-docker.sh file in frontend directory.
 - All the test results can be seen under `results` directory after execution finishes.
-- All the configurations settings can be modified from any of the .sh file like browser. Test Suites is wokring for following browsers:
+- All the configurations settings can be modified from any of the .sh file like browser. Test Suites is working for following browsers:
 1. headlesschrome
 2. chrome
 3. firefox
@@ -64,7 +65,7 @@ Please chnage the settings to execute tests.
 ### Performance tests
 
 To run the backend performance test use the command:
-1/ `mvn clean test-compile gatling:test` in backend repo. 
+1. `cd backend` and `mvn clean test-compile gatling:test` 
 2. `cd backend` and `./run-in-docker-performance.sh`
 
 ####Please note:
@@ -79,8 +80,9 @@ To run the backend performance test use the command:
 
 ## To see the results after CI is executed.
 
-- Navigate to Github Actions link: 
-- Click on artifacts to view any of the results
+- Navigate to Github Actions link: `https://github.com/BhumiGopani/demo-automation/actions`
+- Click on artifacts to view any of the results of the executed workflow. Link is: `https://github.com/BhumiGopani/demo-automation/actions/runs/388623013`
+
 
 ## IDE setings for VSCode
 
@@ -92,7 +94,7 @@ To run the backend performance test use the command:
 - If we have high compnonents to JS in UI, offcourse autoamting with robot is going to be tough, for that we can have new ear frameworks like - Cypress, Puppeteer, Playwright etc, this can make our life super easy.
 - Also for performace I have selected Galting because its easily configurable with Karate, there are other attracive options like Locust, Jmeter etc.
 
-## What else facny can be done in very less time
+## What else fancy can be done in very less time
 
 - New Visual testing like Percy, Applitools can be added for UI, which can decrese number of our UI tests and lead to less maintenance.
 - Cross Browser testing with browserstack, lambdatest etc can be a good addition.
