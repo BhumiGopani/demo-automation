@@ -4,6 +4,18 @@ name: Run tests
 on: [push]
 
 jobs:
+  setup:
+    name: Setup environment
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Set up test data in case any
+        run: 
   backend-test:
     name: Backend Test
     needs: [setup]
